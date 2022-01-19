@@ -8,7 +8,7 @@
 lib
 ├─ array — array functions such as concatenation and equality.
 ├─ bitwise — bitwise left and right shift
-├─ shortstring — transformations such as felt and uint256 to short string
+├─ shortstring — transformations such as felt/int256 -> short string
 ```
 
 ## Installation and Usage
