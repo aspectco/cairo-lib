@@ -1,1 +1,1 @@
-recursive-include src/cairo-lib *
+recursive-include src/cairolib *
