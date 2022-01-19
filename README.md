@@ -1,6 +1,6 @@
 ![cairo-lib logo](./img/cairo-lib-logo.png)
 
-#### Libraries for cairo development.
+#### Libraries for Cairo development.
 
 ## Library
 
