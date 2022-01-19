@@ -1,4 +1,4 @@
-![cairo-lib logo](./img/cairo-lib-logo.png)
+![cairo-lib logo](./assets/cairo-lib-logo.png)
 
 #### Libraries for Cairo development.
 
