@@ -55,3 +55,4 @@ We **do not give any warranties** and **will not be liable for any loss** incurr
 These contracts were inspired by or directly modified from many sources, primarily:
 
 - [StarkWare](https://github.com/starkware-libs/cairo-lang)
+- [starknet-l2-storage-verifier](https://github.com/OilerNetwork/starknet-l2-storage-verifier)
