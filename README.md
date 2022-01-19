@@ -4,12 +4,19 @@
 
 ## Library
 
+```ml
+lib
+├─ array — ""
+├─ bitwise — ""
+├─ shortstring — ""
+```
+
 ## Installation
 
 To install with pip
 
 ```sh
-pip install cairo-lib
+pip install cairolib
 ```
 
 To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffle**](https://github.com/trufflesuite/truffle):
