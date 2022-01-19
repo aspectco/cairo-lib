@@ -13,13 +13,13 @@ lib
 
 ## Installation and Usage
 
-To install with pip
+Install with pip:
 
 ```sh
 pip install cairolib
 ```
 
-Example .cairo file
+Example .cairo file:
 
 ```
 from cairolib.array import arr_concat
@@ -34,6 +34,12 @@ let (token_uri_len, token_uri) = arr_concat(
 
 let (token_id_ss_len, token_id_ss) = uint256_to_ss(token_id)
 
+```
+
+Testing:
+
+```bash
+make test
 ```
 
 <!-- To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffle**](https://github.com/trufflesuite/truffle):
@@ -52,7 +58,7 @@ We **do not give any warranties** and **will not be liable for any loss** incurr
 
 ## Acknowledgements
 
-These contracts were inspired by or directly modified from many sources, primarily:
+These functions were inspired by or directly modified from many sources, primarily:
 
 - [StarkWare](https://github.com/starkware-libs/cairo-lang)
 - [starknet-l2-storage-verifier](https://github.com/OilerNetwork/starknet-l2-storage-verifier)
