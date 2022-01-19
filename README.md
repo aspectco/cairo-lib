@@ -1,16 +1,8 @@
 ![cairo-lib logo](./img/cairo-lib-logo.png)
 
-## Common libraries for cairo development.
+#### Libraries for cairo development.
 
-## Structure
-
-## Safety
-
-This is **experimental software** and is provided on an "as is" and "as available" basis.
-
-These **methods are NOT audited** and are **not designed with user safety** in mind:
-
-We **do not give any warranties** and **will not be liable for any loss** incurred through any use of this codebase.
+## Library
 
 ## Installation
 
@@ -25,6 +17,14 @@ To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffl
 ```sh
 npm install cairo-lib
 ```
+
+## Safety
+
+This is **experimental software** and is provided on an "as is" and "as available" basis.
+
+These **methods are NOT audited** and are **not designed with user safety** in mind:
+
+We **do not give any warranties** and **will not be liable for any loss** incurred through any use of this codebase.
 
 ## Acknowledgements
 
