@@ -4,14 +4,14 @@
 
 ## Library
 
-```ml
+```
 lib
-├─ array — ""
-├─ bitwise — ""
-├─ shortstring — ""
+├─ array — array functions such as concatenation and equality.
+├─ bitwise — bitwise left and right shift
+├─ shortstring — transformations such as felt and uint256 to short string
 ```
 
-## Installation
+## Installation and Usage
 
 To install with pip
 
@@ -19,11 +19,28 @@ To install with pip
 pip install cairolib
 ```
 
-To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffle**](https://github.com/trufflesuite/truffle):
+Example .cairo file
+
+```
+from cairolib.array import arr_concat
+from cairolib.shortstring import uint256_to_ss
+
+let (token_uri_len, token_uri) = arr_concat(
+    base_token_uri_len,
+    base_token_uri,
+    token_id_ss_len,
+    token_id_ss,
+)
+
+let (token_id_ss_len, token_id_ss) = uint256_to_ss(token_id)
+
+```
+
+<!-- To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffle**](https://github.com/trufflesuite/truffle):
 
 ```sh
 npm install cairo-lib
-```
+``` -->
 
 ## Safety
 
